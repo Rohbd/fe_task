@@ -1,0 +1,16 @@
+table {
+  @apply w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400;
+}
+thead {
+  @apply text-xs text-gray-700 uppercase dark:text-gray-400;
+}
+th {
+  @apply px-6 py-3 bg-gray-50 dark:bg-gray-800;
+}
+tr {
+  @apply border-b border-gray-200 dark:border-gray-700;
+}
+
+td {
+  @apply px-6 py-4;
+}
